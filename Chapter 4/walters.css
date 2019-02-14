@@ -1,0 +1,11 @@
+
+h1 { background-color:pink;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    }
+p {color: mistyrose; font-family: sans-serif;}
+
+img{ border-width:thick;
+    border-style: solid;
+    border-color: darksalmon}
