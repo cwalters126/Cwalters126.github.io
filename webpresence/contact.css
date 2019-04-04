@@ -1,0 +1,22 @@
+<style>
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: border-box;}
+body { margin:0;
+       background-color: #ffffffcc; }
+#container { background-color: #c48e8e;
+             color: #7c1e1e;
+             min-width: 960px;
+             font-family: Verdana, Arial, sans-serif; }
+
+header { background-image: url("../images/bokeh.jpg");
+        background-color: #838383;
+         background-position: bottom;
+         background-repeat: repeat-x;
+         height: 120px;
+         color: #ffffff;
+         text-align: right;
+         padding: 0 20px;
+         border-bottom: 2px solid #000000; }
+nav { float: left;
+      width: 150px;
+    }
