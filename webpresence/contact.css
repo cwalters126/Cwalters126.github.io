@@ -2,7 +2,8 @@
 header, nav, main, footer, aside { display: block; }
 * { box-sizing: border-box;}
 body { margin:0;
-       background-color: #ffffffcc; }
+       background-color: #ffffffcc; 
+                color:gainsboro}
 #container { background-color: #c48e8e;
              color: #7c1e1e;
              min-width: 960px;
@@ -22,7 +23,7 @@ nav { float: left;
     }
 nav a { text-decoration: none;
         font-size: 1.2em; }
-nav a:link { color:darkred;}
+nav a:link { color:whitesmoke;}
 nav a:visited { color: black; }
-nav a:focus, nav a:hover { color: gainsboro; }
+nav a:focus, nav a:hover { color: gray; }
 nav a:active { color: #000000;}
