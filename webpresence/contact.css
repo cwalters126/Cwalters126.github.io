@@ -25,5 +25,17 @@ nav a:focus, nav a:hover { color: gray; }
 nav a:active { color: #000000;}
 
 form {
-        text-align: center;
+        background-color: #9e7777;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
 }
+Label { float: left;
+        width: 100px;
+        clear:left;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 10px;
+}
+input, textarea { margin-top: 10px;
+                display: block;}
+#mysubmit { margin-left: 110px;}
