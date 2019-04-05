@@ -20,3 +20,9 @@ header { background-image: url("bokeh copy.jpg");
 nav { float: left;
       width: 150px;
     }
+    nav a { text-decoration: none;
+        font-size: 1.2em; }
+nav a:link { color:darkred;}
+nav a:visited { color: black; }
+nav a:focus, nav a:hover { color: gainsboro; }
+nav a:active { color: #000000;}
