@@ -3,11 +3,7 @@ header, nav, main, footer, aside { display: block; }
 * { box-sizing: border-box;}
 body { margin:0;
        background-color: #ffffffcc; 
-                color:gainsboro}
-#container { background-color: #c48e8e;
-             color: #7c1e1e;
-             min-width: 2000px;
-             font-family: Verdana, Arial, sans-serif; }
+                color:white}
 
 header { background-image: url("bokeh copy.jpg");
         background-color: #838383;
@@ -27,3 +23,7 @@ nav a:link { color:whitesmoke;}
 nav a:visited { color: black; }
 nav a:focus, nav a:hover { color: gray; }
 nav a:active { color: #000000;}
+
+form {
+        text-align: center;
+}
