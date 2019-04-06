@@ -11,7 +11,14 @@
       margin: 0 auto;
   }
               </style>
-     <style>      
+     <style>   
+     .print {
+	display:none
+}
+ @media print {
+	.print {display:block}
+	.btn-print {display:none;}
+}   
   table, tr, td {border: 10px rgb(219, 165, 165);
          background-color: rgb(119, 94, 91); 
         border-collapse: : collapse;}
@@ -61,5 +68,7 @@
             <td>Time</td>
       </tr>
         </table>
+        <button  onclick="javascript:window.print()" class="btn-print">Print</button>
+<div class="print">
         </body>
         </html>
