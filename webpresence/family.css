@@ -5,3 +5,8 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+.column {
+    float: left;
+    width: 55%;
+    padding: 15px;
+  }
