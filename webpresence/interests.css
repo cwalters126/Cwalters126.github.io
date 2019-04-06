@@ -10,7 +10,7 @@ Label { float: left;
     text-align: right;
     padding-right: 10px;
     margin-top: 10px;
-    colr: white;
+    color: white;
 }
 input, textarea { margin-top: 10px;
             display: block;}
