@@ -2,6 +2,7 @@
 header, nav, main, footer, aside { display: block; }
 * { box-sizing: border-box;}
 body { margin:0;
+<<<<<<< HEAD
        background-color: #ffffffcc; }
 #container { background-color: #c48e8e;
              color: #7c1e1e;
@@ -9,6 +10,12 @@ body { margin:0;
              font-family: Verdana, Arial, sans-serif; }
 
 header { background-image: url("../images/bokeh.jpg");
+=======
+       background-color: #ffffffcc; 
+                color:white}
+
+header { background-image: url("images/metal.jpg");
+>>>>>>> webpresence
         background-color: #838383;
          background-position: bottom;
          background-repeat: repeat-x;
@@ -19,4 +26,32 @@ header { background-image: url("../images/bokeh.jpg");
          border-bottom: 2px solid #000000; }
 nav { float: left;
       width: 150px;
+<<<<<<< HEAD
     }
+=======
+    }
+nav a { text-decoration: none;
+        font-size: 1.2em; }
+nav a:link { color:whitesmoke;}
+nav a:visited { color: black; }
+nav a:focus, nav a:hover { color: gray; }
+nav a:active { color: #000000;}
+ul {
+        list-style-type: none;
+}
+
+form {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+}
+Label { float: left;
+        width: 100px;
+        clear:left;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 10px;
+}
+input, textarea { margin-top: 10px;
+                display: block;}
+#mysubmit { margin-left: 110px;}
+>>>>>>> webpresence

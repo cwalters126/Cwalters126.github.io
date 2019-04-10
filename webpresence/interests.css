@@ -1,0 +1,17 @@
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+}
+Label { float: left;
+    width: 100px;
+    clear:left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: white;
+}
+input, textarea { margin-top: 10px;
+            display: block;}
+#mysubmit { margin-left: 110px;}
