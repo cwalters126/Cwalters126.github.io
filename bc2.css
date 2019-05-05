@@ -4,7 +4,7 @@ header, nav, main, footer, aside { display: block; }
 body { margin:0;
        background-color: lightgrey; }
 
-header { background-image: url("image/tryagain.png");
+header { background-image: url("image/contact.jpg");
         background-color: #838383;
          background-position: center;
          background-repeat: repeat-x;
